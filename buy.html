@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Greenery Delight</title>
+    <link rel="stylesheet" href='style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kumar+One&family=Montserrat&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <a name="top"></a>
+    <div class="row border bg-light py-4 px-4">
+        <div class="col">
+            <ul class="nav nav-underline nav-fill">
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" aria-current="page" href="index.html">главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" href="catalog.html">каталог</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <a class=" nav-link text-dark" href="index.html">
+                <img src="img/logo.png" style="width: 23.5rem;" alt="">
+            </a>
+        </div>
+        <div class="col">
+            <ul class="nav nav-underline nav-fill">
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" href="sale.html">акции</a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" href="delivery.html">доставка</a>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link active text-dark" href="buy.html">
+                        <img src="img/shop.png" style="width: 1.2rem;" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row px-4 py-4">
+        <div class="col"></div>
+    </div>
+    <p class="text-center">Оставьте заявку в форме ниже, с Вами свяжутся для уточнения деталей.</p>
+
+    <div class="row px-4 py-4">
+        <div class="col"></div>
+    </div>
+
+    <form class="form-row" action="https://www.google.com/search?" method="get" target="_blank">
+        <div class="form-group col-md-4">
+            <label for="name1"><b>Имя</b></label>
+            <input type="text" class="form-control" id="name1" placeholder="Иван" value="Иван" name="first_name">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="name2"><b>Фамилия</b></label>
+            <input type="text" class="form-control" id="name2" placeholder="Иванов" value="Иванов" name="last_name">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="tel"><b>Номер телефона</b></label>
+            <input type="tel" class="form-control" id="tel" name="tel" value="8 800 555 35 35"
+                   placeholder="8 800 555 35 35">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="age"><b>Ваш возраст</b></label>
+            <input type="number" class="form-control" id="age" name="age" value="21"
+                   placeholder="21">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="email"><b>Электронная почта</b></label>
+            <input type="email" class="form-control" id="email" value="info@greenery.delight.ru"
+                   placeholder="info@greenery.delight.ru">
+        </div>
+        <p><br>Отметьте, какой товар Вы хотели бы приобрести:</p>
+        <input type="checkbox" name="product" id="p1" value="orhidea" checked>
+        <label for="p1">Орхидея</label><br>
+        <input type="checkbox" name="product" id="p2" value="hlorophitum" checked>
+        <label for="p2">Хлорофитум</label><br>
+        <input type="checkbox" name="product" id="p3" value="ficus">
+        <label for="p3">Фикус</label><br>
+        <input type="checkbox" name="product" id="p4" value="dracena">
+        <label for="p4">Драцена</label><br>
+        <input type="checkbox" name="product" id="p5" value="peperomia">
+        <label for="p5">Пеперомия</label><br>
+        <input type="checkbox" name="product" id="p6" value="anturium">
+        <label for="p6">Антуриум</label><br>
+        <input type="checkbox" name="product" id="p7" value="zamiokulkas">
+        <label for="p7">Замиокулькас</label><br>
+        <input type="checkbox" name="product" id="p8" value="aglaonema">
+        <label for="p8">Аглаонема</label><br>
+        <input type="checkbox" name="product" id="p9" value="krassula">
+        <label for="p9">Крассула Овата</label><br>
+        <input type="checkbox" name="product" id="p10" value="shefflera">
+        <label for="p10">Шеффлера</label><br>
+        <input type="checkbox" name="product" id="p11" value="sansevieria">
+        <label for="p11">Сансевиерия</label><br>
+        <input type="checkbox" name="product" id="p12" value="anturium">
+        <label for="p12">Антуриум Адрианум</label><br>
+        <input type="checkbox" name="product" id="p13" value="gift10" checked>
+        <label for="p13">Gift Card 10 000</label><br>
+        <input type="checkbox" name="product" id="p14" value="gift15">
+        <label for="p14">Gift Card 15 000</label><br>
+
+        <p><br>Будете ли использовать какой-либо купон?</p>
+        <input type="radio" name="action" id="ac1" value="500"/>
+        <label for="ac1">Скидка 500 рублей на первый заказ</label><br>
+        <input type="radio" name="action" id="ac2" value="black_fr"/>
+        <label for="ac2">Чёрная пятница</label><br>
+        <input type="radio" name="action" id="ac3" value="hb"/>
+        <label for="ac3">При заказе в день рождения</label><br>
+        <input type="radio" name="action" id="ac_no" value="no" checked/>
+        <label for="ac_no">Не буду</label><br>
+        <div class="row px-4 py-4">
+            <div class="col"></div>
+        </div>
+        <button type="submit" class="btn btn-success">Оставить заявку</button>
+        <input type="hidden" name="q" id="buy" value="Спасибо за заказ! С Вами свяжутся в ближайшее время."/>
+
+    </form>
+
+    <div class="row px-4 py-4">
+        <div class="col"></div>
+    </div>
+
+    <div class="row border bg-light py-4 px-4">
+        <div class="col-sm-10"></div>
+        <div class="col-sm-2"><a href="#top" class="btn btn-success text-end">к началу &#9650;</a></div>
+    </div>
+    <div class="row border bg-light py-4 px-4">
+        <div class="col">
+            <a class=" nav-link text-dark" href="index.html">
+                <img src="img/logo2.png" style="width: 25rem;" alt="">
+            </a>
+        </div>
+        <div class="col">
+            <ul class="nav nav-underline nav-fill">
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" aria-current="page" href="index.html">главная</a><br>
+                    <a class=" nav-link text-dark" href="catalog.html">каталог</a><br>
+                </li>
+                <li class="nav-item">
+                    <a class=" nav-link text-dark" href="sale.html">акции</a><br>
+                    <a class=" nav-link text-dark" href="delivery.html">доставка</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="nav nav-underline nav-fill">
+                <li class="nav-item">
+                    <p class="text-dark">Телефон:<br> 8 800 555 35 35</p>
+                    <p class="text-dark">Почта: <br>info@greenery.delight.ru</p>
+                </li>
+                <li class="nav-item">
+                    <p class="text-dark">Telegram: <br>@greenery_delight</p>
+                    <p class="text-dark">Адрес: <br>ул. Маковского д.2</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

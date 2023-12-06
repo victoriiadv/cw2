@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "product": "orhidea",
+    "title": "Орхидея",
+    "description": "Общая высота - 60 см",
+    "price": "5 420 руб.",
+    "img": "img/prod1.png"
+  },
+  {
+    "id": "2",
+    "product": "hlorophitum",
+    "title": "Хлорофитум",
+    "description": "Общая высота - 30 см",
+    "price": "4 234 руб.",
+    "img": "img/prod2.png"
+  },
+  {
+      "id": "3",
+    "product": "ficus",
+    "title": "Фикус",
+    "description": "Общая высота - 30 см",
+    "price": "4 234 руб.",
+    "img": "img/prod3.png"
+  },
+  {
+      "id": "4",
+    "product": "dracena",
+    "title": "Драцена",
+    "description": "Общая высота - 120 см",
+    "price": "14 836 руб.",
+    "img": "img/prod4.png"
+  },
+  {
+      "id": "5",
+    "product": "peperomia",
+    "title": "Пеперомия",
+    "description": "Общая высота - 20 см",
+    "price": "5 490 руб.",
+    "img": "img/prod5.png"
+  },
+  {
+      "id": "6",
+    "product": "anturium",
+    "title": "Антуриум",
+    "description": "Общая высота - 40 см",
+    "price": "4 742 руб.",
+    "img": "img/prod6.png"
+  },
+  {
+      "id": "7",
+    "product": "zamiokulkas",
+    "title": "Замиокулькас",
+    "description": "Общая высота - 40 см",
+    "price": "8 468 руб.",
+    "img": "img/prod7.png"
+  },
+  {
+      "id": "8",
+    "product": "aglaonema",
+    "title": "Аглаонема",
+    "description": "Общая высота - 45 см",
+    "price": "21 846 руб.",
+    "img": "img/prod8.png"
+  },
+  {
+      "id": "9",
+    "product": "krassula",
+    "title": "Крассула Овата",
+    "description": "Общая высота - 30 см",
+    "price": "5 688 руб.",
+    "img": "img/prod9.png"
+  },
+  {
+      "id": "10",
+    "product": "shefflera",
+    "title": "Шеффлера",
+    "description": "Общая высота - 65 см",
+    "price": "13 209 руб.",
+    "img": "img/prod10.png"
+  },
+  {
+      "id": "11",
+    "product": "sansevieria",
+    "title": "Сансевиерия",
+    "description": "Общая высота - 24 см",
+    "price": "4 615 руб.",
+    "img": "img/prod11.png"
+  },
+  {
+      "id": "12",
+    "product": "anturium",
+    "title": "Антуриум Адрианум",
+    "description": "Общая высота - 45 см",
+    "price": "15 241 руб.",
+    "img": "img/prod12.png"
+  }
+]
